@@ -1,7 +1,7 @@
 // num - число, degree - степень
 const pow = (num, degree) => {
-  if (degree === 0) {
-    return 1;
+  if (degree == 1) {
+    return num;
   } else {
     return num * pow(num, degree - 1);
   }
